@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+}
+div#general{
+    margin: auto;
+    margin-top: 10px;
+    width: 1100px;
+    height: 60px;
+    background-color: #ffffff;
+}
+div#gen2{
+    width: 1100px;
+    height: 120px;
+    background-color:  #ffffff;
+}
+h1{
+    text-align: center;
+    font-size: 20px;
+    font-family: century gothic;
+}
+
+header nav a:hover{
+    background: transparent !important;
+}
+h1#titu{
+    text-align: center;
+    font-size: 55px;
+    font-family: century gothic;
+}
+h3{
+    font-size: 20px;
+    font-family: century gothic;
+}
+h3#h2{
+    font-size: 36px;
+    font-family: century gothic;
+    color: #1c2454;
+}
+p{
+    font-family: century gothic;
+    font-size: 23px;
+}
+.logo{
+    width: 58px;
+    height: 58px;
+    margin-left: 35px;
+}
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none !important;
+	padding: .7rem;
+	display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook {
+    background: #2E406E;
+    text-decoration: none;
+    width: 41px;
+}
+
+.icon-twitter {
+    background: #339DC5;
+    border-radius: 0 0 0 1rem;
+    text-decoration: none;
+    width: 41px;
+}
+
+.icon-instagram {
+    background: #3F60A5;
+    width: 41px;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+    color: white;
+}
+@media (max-width:995px){
+    div#gen2{
+        width: 900px;
+    }
+    div#general{
+        width: 900px;
+    }
+    h1#titu{
+        font-size: 50px;
+    }
+    h3#h2{
+        font-size: 28px;
+    }
+}
+@media (max-width:800px){
+    div#gen2{
+        width: 700px;
+    }
+    div#general{
+        width: 700px;
+    }
+    h1#titu{
+        font-size: 50px;
+    }
+    h3#h2{
+        font-size: 28px;
+    }
+}
+@media (max-width:700px){
+    div#gen2{
+        width: 600px;
+    }
+    div#general{
+        width: 600px;
+    }
+    h1#titu{
+        font-size: 40px;
+    }
+    h3#h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+@media (max-width:600px){
+    div#gen2{
+        width: 500px;
+    }
+    div#general{
+        width: 500px;
+    }
+    h1#titu{
+        font-size: 36px;
+    }
+    h3#h2{
+        font-size: 28px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+@media (max-width:500px){
+    div#gen2{
+        width: 400px;
+    }
+    div#general{
+        width: 400px;
+    }
+    h1#titu{
+        font-size: 32px;
+    }
+    h3#h2{
+        font-size: 26px;
+    }
+    p{
+        font-size: 20px;
+    }
+    
+}
+@media (max-width:400px){
+    div#gen2{
+        width: 280px;
+    }
+    div#general{
+        width: 280px;
+    }
+    h1#titu{
+        font-size: 30px;
+    }
+    h3#h2{
+        font-size: 22px;
+    }
+    p{
+        font-size: 16px;
+    }
+}

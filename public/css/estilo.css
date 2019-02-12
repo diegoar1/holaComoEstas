@@ -1,0 +1,361 @@
+*{margin: 0;
+}
+h1, h2, p, h5{
+    font-family: Century Gothic;
+}
+
+h1{
+    font-size: 37px;
+    font-weight: bold;
+}
+.par{
+    float: left; width:40%; margin-left: 80px;
+}
+p{
+    font-size: 18px;
+    text-align: justify;
+}
+.hidden{
+    visibility: hidden;
+}
+.drop{
+    background: #50d8af;
+    height: 47px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.slide{
+    width: 40%; float:right; margin-right:80px; margin-top: 25px;
+}
+
+.visible{
+    visibility: visible;
+}
+#vis{
+    visibility: visible;
+}
+
+header nav a {
+    font-family: Century Gothic;
+    text-decoration: none !important;
+    font-size: 1.2vw;
+}
+
+header nav a:hover{
+    background: #50d8af;
+}
+
+.div-s{
+    width:100%; position:absolute; margin-top: 350px; height:340px;
+}
+
+.logo{
+    width: 58px;
+    height: 58px;
+    margin-left: 35px;
+}
+
+.imgC2{
+    width: 300px;
+    height: 300px;
+    border-radius: 1000px;
+}
+
+.imgC3{
+    width: 200px;
+    height: 100px;
+}
+.bg{
+    background-color: #1c2454;
+}
+.li-f{
+    color: white;
+    font-family: Century Gothic;
+    
+}
+
+.div-img{
+    float: left; width:40%; margin-left: 80px; margin-top: 20px;
+}
+
+.div-q{
+    color:white;width: 40%; float:right; margin-right:80px; margin-top: 10px; 
+}
+
+.div-p{
+    width:100%; margin-top:680px; background-color: #EFF2F6; position: absolute; padding-bottom:60px;
+}
+.foot{
+    width:100%; position:absolute; margin-top: 1000px; height:250px;
+}
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none !important;
+	padding: .7rem;
+	display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook {
+    background: #2E406E;
+    text-decoration: none;
+    width: 41px;
+}
+
+.icon-twitter {
+    background: #339DC5;
+    border-radius: 0 0 0 1rem;
+    text-decoration: none;
+    width: 41px;
+}
+
+.icon-instagram {
+    background: #3F60A5;
+    width: 41px;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+    color: white;
+}
+
+.h-img{
+    visibility: visible;
+}
+
+@media (max-width:15225px){
+    .imgC2 {
+        width: 255px;
+        height: 238px;
+    }
+
+}
+
+@media (max-width:1400px){
+    .imgC2 {
+        width: 255px;
+        height: 242px;
+    }
+
+}
+
+@media (max-width:1300px){
+    .imgC2 {
+        width: 247px;
+        height: 248px;
+    }
+
+    .visible{
+        visibility: hidden;
+    }
+    #vis{
+        visibility: hidden;
+    }
+    
+
+}
+@media (max-width:1140px){
+    .div-s {
+        height: 360px;
+    }
+
+    .div-p {
+        margin-top: 720px;
+    }
+
+}
+
+@media (max-width:995px){
+  .logo {
+        width: 45px;
+        height: 45px;
+        margin-top: 5px;
+   }
+
+   .hidden{
+     visibility: visible;
+   }
+
+   .visible{
+       visibility: hidden;
+   }
+   #vis{
+    visibility: hidden;
+}
+   
+   .div-img{
+        float: left; width:20%; margin-left: 80px; margin-top: 20px;
+   }
+
+   h1{
+    font-size: 30px;
+   }
+
+   p{
+    font-size: 15px; 
+   }
+   
+   .div-p{
+     margin-top:900px; padding-bottom:30px;
+    }
+
+   .par{
+     width:85%; margin-left: 40px; margin-top: 10px; 
+   }
+
+   .slide{
+    width: 86%; float:right; margin-right:80px; margin-top: 25px;
+    }
+
+    .div-s{
+            width:100%; position:absolute; margin-top: 570px; height:340px;
+        }
+        
+    .imgC3{
+            width: 90px;
+            height: 40px;
+        }   
+        
+     .foot{
+            margin-top: 1160px; 
+        }   
+ 
+    
+}
+@media (max-width:619px){
+    .imgC2{
+        width: 160px; height: 200px;
+    }
+}
+
+@media (max-width:990px){
+    .div-s{
+        width:100%; position:absolute; margin-top: 550px; height:340px;
+    }
+    .div-q{
+        color:white;width: 49%;  margin-right:80px; margin-top: 0px;
+      }
+}
+
+@media (max-width:800px){
+
+    .slide{
+        width: 500px; margin-right:80px; margin-top: 25px;
+        }
+    
+        .div-s{
+            width:100%; position:absolute; margin-top: 550px; height:340px;
+        }
+        .imgC2{
+            width: 200px; height: 200px;
+        }
+
+}
+
+@media (max-width:660px){
+    .slide{
+        width: 400px; margin-left: 20px; margin-right:80px; margin-top: 25px;
+        }
+        .div-s{
+            width:100%; position:absolute; margin-top: 550px; height:340px;
+        }
+        .imgC2{
+            width: 170px; height: 170px;
+        }
+        .div-q{
+          margin-right:50px;
+        }
+        
+}
+
+@media (max-width:619px){
+    .div-img{
+        margin-left: 10px; 
+    }
+    .h-img{
+        visibility: hidden;
+        }
+    .div-q{
+        margin-right: 64px;
+        width: 62%;
+      }
+    .foot{
+        height: 327px; margin-top: 1250px;
+    }
+
+}
+
+@media (max-width:550px){
+    .slide{
+        width: 300px; margin-left: 20px; margin-right:80px; margin-top: 25px;
+        }
+        .div-s{
+            width:100%; position:absolute; margin-top: 580px; height:390px;
+        }
+
+        .imgC2{
+            width: 160px; height: 160px;
+        }
+        .div-img{
+           margin-left: 10px; 
+       }
+       .div-p {
+        margin-top: 976px;
+        padding-bottom: 30px;
+        }
+
+       .h-img{
+        visibility: hidden;
+        }
+        .div-q{
+            margin-right: 64px;
+            width: 62%;
+          }
+        .foot{
+            height: 327px; margin-top: 1250px;
+        }
+    
+}
+
+@media (max-width:419px){
+    .slide{
+        width: 250px;margin-right:50px;  margin-top: 25px;
+        }
+        .div-s{
+            width:100%; position:absolute; margin-top: 600px; height:384px;
+        }
+    .div-img{
+            float: left; width:5%; margin-left: 0px; margin-top: 20px;
+       }
+     .div-q{
+        margin-right:60px; width: 70%;  
+      }  
+    .div-p {
+        margin-top: 985px;
+        padding-bottom: 30px;
+    }   
+       .h-img{
+           visibility: hidden;
+       }
+    
+}
